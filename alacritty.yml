@@ -451,7 +451,10 @@ font:
 # Default:
 #   - (Linux/BSD/macOS) `$SHELL` or the user's login shell, if `$SHELL` is unset
 #   - (Windows) powershell
-#shell:
+shell:
+  program: /usr/bin/tmux
+  args:
+    - attach
 #  program: /bin/bash
 #  args:
 #    - --login
